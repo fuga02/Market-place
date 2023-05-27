@@ -555,11 +555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net projects\\Market Place\\src\\back-end\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
+      "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
       "projectName": "IdentityApi",
-      "projectPath": "D:\\.Net projects\\Market Place\\src\\back-end\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
+      "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityApi\\IdentityApi.csproj",
       "packagesPath": "C:\\Users\\fuga_02\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net projects\\Market Place\\src\\back-end\\IdentityApi\\IdentityApi\\obj\\",
+      "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
