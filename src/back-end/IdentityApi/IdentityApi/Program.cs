@@ -1,5 +1,6 @@
 using IdentityData.Context;
 using IdentityData.Extensions;
+using IdentityData.Middlewares;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -39,20 +40,25 @@ builder.Services.AddDbContext<IdentityDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("IdentityDb"));
 });
+builder.Services.AddIdentity(builder.Configuration);
 var app = builder.Build();
 
-builder.Services.AddIdentity(builder.Configuration);
-
+app.UseCors(cors =>
+{
+    cors.AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowAnyOrigin();
+});
 
 // Configure the HTTP request pipeline.
-    app.UseSwagger();
+app.UseSwagger();
     app.UseSwaggerUI();
-
+app.MigrateIdentityDb();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseErrorHandlerMiddleware();
 app.MapControllers();
-
+    
 app.Run();
  
