@@ -8,6 +8,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["IdentityApi/IdentityApi.csproj", "IdentityApi/"]
+COPY ["IdentityData/IdentityData.csproj", "IdentityData/"]
 RUN dotnet restore "IdentityApi/IdentityApi.csproj"
 COPY . .
 WORKDIR "/src/IdentityApi"
