@@ -1,0 +1,14 @@
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\bin\Debug\net7.0\IdentityData.deps.json
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\bin\Debug\net7.0\IdentityData.runtimeconfig.json
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\bin\Debug\net7.0\IdentityData.dll
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\bin\Debug\net7.0\IdentityData.pdb
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.csproj.AssemblyReference.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.AssemblyInfoInputs.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.AssemblyInfo.cs
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.csproj.CoreCompileInputs.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.dll
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\refint\IdentityData.dll
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.pdb
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\IdentityData.genruntimeconfig.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\IdentityData\obj\Debug\net7.0\ref\IdentityData.dll

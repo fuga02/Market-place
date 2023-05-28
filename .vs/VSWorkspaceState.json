@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\back-end",
+    "\\src\\back-end\\ChatApi",
+    "\\src\\back-end\\IdentityApi"
+  ],
+  "SelectedNode": "\\src\\back-end\\ChatApi\\ChatApi.sln",
+  "PreviewInSolutionExplorer": false
+}
