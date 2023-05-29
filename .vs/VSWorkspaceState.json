@@ -3,9 +3,8 @@
     "",
     "\\src",
     "\\src\\back-end",
-    "\\src\\back-end\\ChatApi",
     "\\src\\back-end\\IdentityApi"
   ],
-  "SelectedNode": "\\src\\back-end\\ChatApi\\ChatApi.sln",
+  "SelectedNode": "\\src\\doker-compose.yml",
   "PreviewInSolutionExplorer": false
 }

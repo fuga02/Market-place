@@ -1,0 +1,14 @@
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\bin\Debug\net7.0\ChatData.deps.json
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\bin\Debug\net7.0\ChatData.runtimeconfig.json
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\bin\Debug\net7.0\ChatData.dll
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\bin\Debug\net7.0\ChatData.pdb
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.csproj.AssemblyReference.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.AssemblyInfoInputs.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.AssemblyInfo.cs
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.csproj.CoreCompileInputs.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.dll
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\refint\ChatData.dll
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.pdb
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ChatData.genruntimeconfig.cache
+D:\.Net projects\Market Place\Market-place\src\back-end\IdentityApi\ChatData\obj\Debug\net7.0\ref\ChatData.dll
