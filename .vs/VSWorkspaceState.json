@@ -4,8 +4,11 @@
     "\\src",
     "\\src\\back-end",
     "\\src\\back-end\\IdentityApi",
+    "\\src\\back-end\\IdentityApi\\ChatBlazor",
+    "\\src\\back-end\\IdentityApi\\ChatBlazor\\Pages",
+    "\\src\\back-end\\IdentityApi\\ChatBlazor\\Pages\\Identity",
     "\\src\\back-end\\IdentityApi\\IdentityApi"
   ],
-  "SelectedNode": "\\src\\back-end\\IdentityApi\\IdentityApi\\Program.cs",
+  "SelectedNode": "\\src\\back-end\\IdentityApi\\ChatBlazor\\Pages\\Identity\\Register.razor",
   "PreviewInSolutionExplorer": false
 }

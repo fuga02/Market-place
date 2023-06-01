@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-C3gpWQMELcHYfrHU\/1agQUvWTtSNs9Ul2suMxcKFnIc=",
       "netstandard.dll": "sha256-CgGkoZQx73t3qchcsu85kgBcgrjNEOiudArOwKNb18k=",
       "System.Private.CoreLib.dll": "sha256-6nUSjiT7okMlkN897OnDypwppYuK7JxTahOClXkAuwE=",
-      "ChatBlazor.dll": "sha256-KjRm92igNJ1yxpdwXYQDrQwZLejeGqCoRFON4rILkyQ="
+      "ChatBlazor.dll": "sha256-DEfXuIcY1LaBf0A8t6mhnA77joiexDx7hIySDCvfrE8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ChatBlazor.pdb": "sha256-xpP\/b+f8mpePECznzcn7qrdTF+68LbkzydBwVudqNSc="
+      "ChatBlazor.pdb": "sha256-T9tML2vADJmgOo6FmKFsF7KwPUcJG4RUb\/3tEaA\/OBw="
     },
     "runtime": {
       "dotnet.6.0.16.eahy52sehh.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",

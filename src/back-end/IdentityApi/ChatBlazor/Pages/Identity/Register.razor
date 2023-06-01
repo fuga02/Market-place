@@ -9,7 +9,7 @@
 <MudGrid>
     <MudItem xs="12" sm="7">
         <MudPaper Class="pa-4">
-            <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+            <MudForm @ref="form"  @bind-Errors="@errors">
                 <MudTextField T="string" Label="Name" Required="true" @bind-value ="createUser.Name" RequiredError="Name is required!" />
                 <MudTextField T="string" Label="Username" Required="true" @bind-value="createUser.Username" RequiredError="User name is required!" />
                 <MudTextField T="string" Label="Password" HelperText="Choose a strong password" @bind-value="createUser.Password" @ref="pwField1"
@@ -24,7 +24,7 @@
                     </MudRadioGroup>
                 </div>
                 <div class="d-flex align-center justify-space-between">
-                    <MudButton Variant="Variant.Filled" Color="Color.Primary" Disabled="@(!success)" @onclick="LoginAccount" Class="ml-auto">Register</MudButton>
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary"  @onclick="LoginAccount" Class="ml-auto">Register</MudButton>
                 </div>
             </MudForm>
         </MudPaper>
@@ -33,7 +33,6 @@
 
 
 @code {
-    bool success;
     string[] errors = { };
     MudTextField<string> pwField1;
     MudForm form;
@@ -43,16 +42,7 @@
         if (string.IsNullOrWhiteSpace(pw))
         {
             yield return "Password is required!";
-            yield break;
         }
-        if (pw.Length < 8)
-            yield return "Password must be at least of length 8";
-        if (!Regex.IsMatch(pw, @"[A-Z]"))
-            yield return "Password must contain at least one capital letter";
-        if (!Regex.IsMatch(pw, @"[a-z]"))
-            yield return "Password must contain at least one lowercase letter";
-        if (!Regex.IsMatch(pw, @"[0-9]"))
-            yield return "Password must contain at least one digit";
     }
 
     private string PasswordMatch(string arg)

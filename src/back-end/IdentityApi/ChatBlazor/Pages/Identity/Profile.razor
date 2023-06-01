@@ -5,9 +5,12 @@
 @inject ILocalStorageService Storage
 <h3>Profile</h3>
 @{
+    <p>Token : @token</p>
+
     if (user != null)
     {
         <p>Name : @user.Name</p>
+        
     }
     else
     {
@@ -16,10 +19,10 @@
 }
 @code {
     UserModel? user { get; set; }
-
+    string token;
     protected override async Task OnInitializedAsync()
     {
-        var token = await Storage.GetItemAsStringAsync("token"); 
+         token = await Storage.GetItemAsStringAsync("token"); 
 
         var request = new HttpRequestMessage(HttpMethod.Get, "/api/Account");
         request.Headers.Add("Authorization",$"Bearer {token}");
