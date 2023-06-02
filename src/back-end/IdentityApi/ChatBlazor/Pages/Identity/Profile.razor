@@ -24,7 +24,7 @@
     {
          token = await Storage.GetItemAsStringAsync("token"); 
 
-        var request = new HttpRequestMessage(HttpMethod.Get, "/api/Account");
+        var request = new HttpRequestMessage(HttpMethod.Get, "/api/Account/profile");
         request.Headers.Add("Authorization",$"Bearer {token}");
         var response = await Http.SendAsync(request);
         user = await response.Content.ReadFromJsonAsync<UserModel>();

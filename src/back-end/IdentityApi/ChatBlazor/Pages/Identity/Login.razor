@@ -1,5 +1,6 @@
 ﻿@page "/login"
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 @inject ILocalStorageService Storage
 <h3>Login</h3>
 
@@ -38,10 +39,17 @@
     private async Task RegisterUser()
     {
        var response = await Http.PostAsJsonAsync("/api/Account/login", loginAccount);
+        if (response.IsSuccessStatusCode)
+       {
+           var result = await response.Content.ReadFromJsonAsync<LoginResult>();
 
-        var token = await response.Content.ReadAsStringAsync();
-        
-        await Storage.SetItemAsStringAsync("token", token);
+           if (!string.IsNullOrEmpty(result?.Token))
+           {
+               await Storage.SetItemAsStringAsync("token", result.Token);
+               NavigationManager.NavigateTo("/profile");
+           }
+       }
+       
 
     }
 
