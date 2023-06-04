@@ -1,3 +1,4 @@
+using ChatApi.Hubs;
 using ChatData.Context;
 using ChatData.Managers;
 using IdentityData.Context;
@@ -49,6 +50,7 @@ builder.Services.AddDbContext<IdentityDbContext>(options =>
 });
 builder.Services.AddIdentity(builder.Configuration);
 builder.Services.AddScoped<ChatManager>();
+builder.Services.AddSignalR();
 var app = builder.Build();
 
 app.UseCors(cors =>
@@ -68,6 +70,8 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.MapHub<ConversationHub>("/hubs/conversation");
 
 app.MapControllers();
 

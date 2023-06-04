@@ -1,21 +1,19 @@
 ﻿@page "/login"
+@using ChatBlazor.Models.IdentityModels
+@using Blazored.LocalStorage
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
 @inject ILocalStorageService Storage
 <h3>Login</h3>
 
 
-@using System.Text.RegularExpressions
-@using System.ComponentModel.DataAnnotations
-@using Blazored.LocalStorage
-@using ChatBlazor.Models
 
 <MudGrid>
     <MudItem xs="12" sm="7">
         <MudPaper Class="pa-4">
             <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
                 <MudTextField T="string" Label="Username" Required="true" @bind-value="loginAccount.Username" RequiredError="User name is required!" />
-                <MudTextField T="string" Label="Password" HelperText="Choose a strong password" @bind-value="loginAccount.Password" @ref="pwField1"
+                <MudTextField T="string"  Label="Password" HelperText="Choose a strong password" @bind-value="loginAccount.Password" @ref="pwField1"
                               InputType="InputType.Password"
                               RequiredError="Password is required!" />
                 

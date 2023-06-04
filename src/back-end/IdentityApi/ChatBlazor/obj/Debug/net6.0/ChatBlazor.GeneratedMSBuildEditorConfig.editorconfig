@@ -20,6 +20,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/.Net projects/Market Place/Market-place/src/back-end/IdentityApi/ChatBlazor/Pages/Chat/Chats.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdFxDaGF0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net projects/Market Place/Market-place/src/back-end/IdentityApi/ChatBlazor/Pages/Chat/Conversations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdFxDb252ZXJzYXRpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/.Net projects/Market Place/Market-place/src/back-end/IdentityApi/ChatBlazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

@@ -10,16 +10,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityApi", "IdentityApi\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityData", "IdentityData\IdentityData.csproj", "{866C67E9-E887-4D2A-B4E6-8F7CE659CA85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApi", "ChatApi\ChatApi.csproj", "{022F7FE1-8160-4D4D-822F-BCE86DC529A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApi", "ChatApi\ChatApi.csproj", "{022F7FE1-8160-4D4D-822F-BCE86DC529A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatData", "ChatData\ChatData.csproj", "{7EBC258F-26D4-4532-B1CA-FA9D26A0A1E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatData", "ChatData\ChatData.csproj", "{7EBC258F-26D4-4532-B1CA-FA9D26A0A1E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22FBD660-D3F4-4F5A-B46C-0B801554FFA8}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBlazor", "ChatBlazor\ChatBlazor.csproj", "{A0EA93ED-12BA-4012-A616-B772576E69B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatBlazor", "ChatBlazor\ChatBlazor.csproj", "{A0EA93ED-12BA-4012-A616-B772576E69B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

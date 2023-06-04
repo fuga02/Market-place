@@ -1,4 +1,4 @@
-﻿namespace ChatBlazor.Models;
+﻿namespace ChatBlazor.Models.IdentityModels;
 
 public class LoginResult
 {
