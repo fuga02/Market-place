@@ -1,4 +1,5 @@
 using ChatApi.Hubs;
+using ChatApi.Services;
 using ChatData.Context;
 using ChatData.Managers;
 using IdentityData.Context;
@@ -50,6 +51,7 @@ builder.Services.AddDbContext<IdentityDbContext>(options =>
 });
 builder.Services.AddIdentity(builder.Configuration);
 builder.Services.AddScoped<ChatManager>();
+builder.Services.AddScoped<UserConnectionIdService>();
 builder.Services.AddSignalR();
 var app = builder.Build();
 

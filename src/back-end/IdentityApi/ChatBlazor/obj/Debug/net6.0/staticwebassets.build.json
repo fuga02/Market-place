@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hcann0BBUFwItcL4s3Mi8mzPH9CfagtUC3S7TuAvKNA=",
+  "Hash": "HI+vE4cT230x0e1/A99+OJ76cpuvagrsTDduYM/ZeAQ=",
   "Source": "ChatBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -374,6 +374,57 @@
       "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.7\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.5\\lib\\netstandard2.1\\Microsoft.AspNetCore.Connections.Abstractions.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Connections.Client.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Client.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\7.0.5\\lib\\netstandard2.1\\Microsoft.AspNetCore.Http.Connections.Client.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\7.0.5\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Common.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -389,6 +440,74 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.7\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\7.0.5\\lib\\netstandard2.1\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Client.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\7.0.5\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Common.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Common.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\7.0.5\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Common.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\7.0.5\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -507,7 +626,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
@@ -524,7 +643,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Features.dll",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Features.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.features\\7.0.5\\lib\\netstandard2.0\\Microsoft.Extensions.Features.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -592,7 +728,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -609,7 +745,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
@@ -626,7 +762,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -643,7 +779,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
@@ -1646,7 +1782,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\system.io.pipelines\\6.0.3\\lib\\net6.0\\System.IO.Pipelines.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\system.io.pipelines\\7.0.0\\lib\\net6.0\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll",
@@ -3040,7 +3176,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Text.Encodings.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\runtimes\\browser\\lib\\net6.0\\System.Text.Encodings.Web.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll",
@@ -3057,7 +3193,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Text.Json.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\system.text.json\\7.0.2\\lib\\net6.0\\System.Text.Json.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll",
@@ -3091,7 +3227,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\System.Threading.Channels.dll"
+      "OriginalItemSpec": "C:\\Users\\fuga_02\\.nuget\\packages\\system.threading.channels\\7.0.0\\lib\\net6.0\\System.Threading.Channels.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.dll",
@@ -3553,6 +3689,23 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\+klGH00t.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Text.Encodings.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\+QoaB7ds.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -3689,23 +3842,6 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.Primitives.dll"
     },
     {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\1JvkI6AD.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\1v+g1I6z.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -3738,6 +3874,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\2uH7CkQ1.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\38UE40Zo.gz",
@@ -4216,21 +4369,21 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.dll"
     },
     {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\aN8H2hZJ.gz",
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ALIuqxW5.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\As96rCca.gz",
@@ -4352,6 +4505,23 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\bYJwZXr3.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Features.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Features.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Features.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\CfeTiUiP.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -4437,6 +4607,23 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Extensions.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\D31wSJjp.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\D3jxPHsS.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -4488,6 +4675,23 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\DfbI9SIv.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\e2fuiPio.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -4520,6 +4724,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\EaJ+TZgI.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Client.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Connections.Client.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Connections.Client.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\EbPyIoYa.gz",
@@ -4811,23 +5032,6 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.CoreLib.dll"
     },
     {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\FYzQ3CeJ.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
-    },
-    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\GRDmmnqI.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -4896,23 +5100,6 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Process.dll"
     },
     {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\hgSbILCS.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Threading.Channels.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
-    },
-    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\HoWaDRed.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -4947,6 +5134,23 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\il+1aCCd.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Common.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Http.Connections.Common.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\in5+P4ok.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -4964,6 +5168,23 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.TraceSource.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\inpBnT+H.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ioLhXoMs.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -4979,6 +5200,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\iRJpcUQd.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Text.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\J314Zuao.gz",
@@ -5440,21 +5678,21 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.dll"
     },
     {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\o87+cD9e.gz",
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ob+GZ9qm.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
       "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Client.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Client.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\oBq1ZVrr.gz",
@@ -5508,6 +5746,23 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.dll"
     },
     {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ohS0Hnze.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ohxL47O+.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -5540,23 +5795,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ObjectModel.dll"
-    },
-    {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\OkArjhv0.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\oOS3RGwX.gz",
@@ -5727,6 +5965,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\QHTDRBRN.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\QIdP6pL+.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Threading.Channels.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\QN3+LAxI.gz",
@@ -6018,23 +6290,6 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Web.HttpUtility.dll"
     },
     {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\sbSPjo9M.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\SFfNPbpY.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -6050,6 +6305,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Memory.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\sgJOzerz.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\slw7125O.gz",
@@ -6271,6 +6543,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Windows.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\UAgC8R0H.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Connections.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Connections.Abstractions.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\uGwbN7Ww.gz",
@@ -6579,40 +6868,6 @@
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.dll"
     },
     {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\wBNngBLV.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Text.Json.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Json.dll"
-    },
-    {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\WIjuGjng.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
-    },
-    {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\WWML8JIu.gz",
       "SourceId": "ChatBlazor",
       "SourceType": "Computed",
@@ -6662,23 +6917,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
-    },
-    {
-      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\x4eIG6IZ.gz",
-      "SourceId": "ChatBlazor",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Text.Encodings.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\xl3EbI3J.gz",
@@ -6764,6 +7002,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebSockets.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\Y7ECcEUz.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Common.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Common.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.SignalR.Common.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\y7XAZjR4.gz",
@@ -6917,6 +7172,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Extensions.dll"
+    },
+    {
+      "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ZnwWYZly.gz",
+      "SourceId": "ChatBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\zQ9It+Dr.gz",

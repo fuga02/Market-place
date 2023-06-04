@@ -11,7 +11,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 
 builder.Services.AddBlazoredLocalStorageAsSingleton();
-builder.Services.AddSingleton<ConversationService>();
+builder.Services.AddScoped<ConversationService>();
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5071") });
 builder.Services.AddMudServices();
 
