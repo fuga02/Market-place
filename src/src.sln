@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.ChatGateway", "MarketPlace.ChatGateway\MarketPlace.ChatGateway\MarketPlace.ChatGateway.csproj", "{D512AE35-F3D6-4B0C-B18B-BE9639F03AEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.ChatData", "MarketPlace.ChatData\MarketPlace.ChatData\MarketPlace.ChatData.csproj", "{ADC3FD56-BA9F-450B-B60E-0AA3A1FC2B93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.ChatApi", "MarketPlace.ChatApi\MarketPlace.ChatApi\MarketPlace.ChatApi.csproj", "{347D7BB9-1485-476B-938D-421FB7689E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.IdentityApi", "MarketPlace.IdentityApi\MarketPlace.IdentityApi\MarketPlace.IdentityApi.csproj", "{39E9889B-1139-4EED-8BA1-A2B663B7CEDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.IdentityData", "MarketPlace.IdentityData\MarketPlace.IdentityData\MarketPlace.IdentityData.csproj", "{8D29C8B6-148A-48B2-AF57-D9F7CA618181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{491EBC1E-EF37-41EF-B717-206E19AC9606}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D512AE35-F3D6-4B0C-B18B-BE9639F03AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D512AE35-F3D6-4B0C-B18B-BE9639F03AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D512AE35-F3D6-4B0C-B18B-BE9639F03AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D512AE35-F3D6-4B0C-B18B-BE9639F03AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC3FD56-BA9F-450B-B60E-0AA3A1FC2B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC3FD56-BA9F-450B-B60E-0AA3A1FC2B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC3FD56-BA9F-450B-B60E-0AA3A1FC2B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC3FD56-BA9F-450B-B60E-0AA3A1FC2B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347D7BB9-1485-476B-938D-421FB7689E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347D7BB9-1485-476B-938D-421FB7689E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347D7BB9-1485-476B-938D-421FB7689E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347D7BB9-1485-476B-938D-421FB7689E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E9889B-1139-4EED-8BA1-A2B663B7CEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E9889B-1139-4EED-8BA1-A2B663B7CEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E9889B-1139-4EED-8BA1-A2B663B7CEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E9889B-1139-4EED-8BA1-A2B663B7CEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D29C8B6-148A-48B2-AF57-D9F7CA618181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D29C8B6-148A-48B2-AF57-D9F7CA618181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D29C8B6-148A-48B2-AF57-D9F7CA618181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D29C8B6-148A-48B2-AF57-D9F7CA618181}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16F569A6-46BB-478D-AA10-BA6A685883B5}
+	EndGlobalSection
+EndGlobal

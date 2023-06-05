@@ -3,12 +3,15 @@
     "",
     "\\src",
     "\\src\\back-end",
+    "\\src\\back-end\\ChatApi",
     "\\src\\back-end\\IdentityApi",
+    "\\src\\back-end\\IdentityApi\\ChatApi",
     "\\src\\back-end\\IdentityApi\\ChatBlazor",
     "\\src\\back-end\\IdentityApi\\ChatBlazor\\Pages",
     "\\src\\back-end\\IdentityApi\\ChatBlazor\\Pages\\Identity",
+    "\\src\\back-end\\IdentityApi\\ChatBlazor\\wwwroot",
     "\\src\\back-end\\IdentityApi\\IdentityApi"
   ],
-  "SelectedNode": "\\src\\back-end\\IdentityApi\\ChatBlazor\\Pages\\Identity\\Profile.razor",
+  "SelectedNode": "\\src\\back-end\\IdentityApi\\ChatApi\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
