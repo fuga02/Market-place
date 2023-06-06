@@ -1,23 +1,27 @@
 {
   "Files": [
     {
-      "Id": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatBlazor\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ioLhXoMs.gz",
+      "Id": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatBlazor\\obj\\Debug\\net6.0\\build-gz\\ioLhXoMs.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\wwwroot\\favicon.ico",
+      "Id": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatBlazor\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\wwwroot\\index.html",
+      "Id": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatBlazor\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatBlazor\\wwwroot\\sample-data\\weather.json",
+      "Id": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatBlazor\\wwwroot\\kerak.css",
+      "PackagePath": "staticwebassets\\kerak.css"
+    },
+    {
+      "Id": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatBlazor\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

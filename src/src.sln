@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.Organizations", "MarketPlace.Organizations\MarketPlace.Organizations.csproj", "{BFA21E7B-6E81-499A-A99C-124E9D208599}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.ChatBlazor", "MarketPlace.ChatBlazor\MarketPlace.ChatBlazor.csproj", "{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{BFA21E7B-6E81-499A-A99C-124E9D208599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA21E7B-6E81-499A-A99C-124E9D208599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFA21E7B-6E81-499A-A99C-124E9D208599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

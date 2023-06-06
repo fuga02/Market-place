@@ -10,7 +10,7 @@ services:
         context: .
         dockerfile: Dockerfile.Identity
     ports:
-        - '7070:80'
+        - '7073:80'
 
   chat:
     image: chat

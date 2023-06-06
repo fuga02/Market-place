@@ -1034,11 +1034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
+      "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
       "projectName": "ChatData",
-      "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
+      "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
       "packagesPath": "C:\\Users\\fuga_02\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\obj\\",
+      "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

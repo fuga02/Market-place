@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj": {}
+    "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj": {}
   },
   "projects": {
-    "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj": {
+    "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj",
+        "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj",
         "projectName": "ChatApi",
-        "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj",
+        "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj",
         "packagesPath": "C:\\Users\\fuga_02\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatApi\\obj\\",
+        "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\ChatData.csproj": {
-                "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\ChatData.csproj"
+              "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\ChatData.csproj": {
+                "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\ChatData.csproj"
               },
-              "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj": {
-                "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj"
+              "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj": {
+                "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\ChatData.csproj": {
+    "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\ChatData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
+        "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
         "projectName": "ChatData",
-        "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
+        "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\ChatData.csproj",
         "packagesPath": "C:\\Users\\fuga_02\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatData\\obj\\",
+        "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -198,14 +198,14 @@
         }
       }
     },
-    "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj": {
+    "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
+        "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
         "projectName": "IdentityData",
-        "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
+        "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
         "packagesPath": "C:\\Users\\fuga_02\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\obj\\",
+        "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
