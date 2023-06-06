@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PMp9OHoNUvuqSp2IWUkjr8aDrqnLURyNXMNCpVzDfM77xcF+vT9LmpJpvaapnYvnLbVeOS7rUGQIslUfZyaYTw==",
+  "dgSpecHash": "OhwL5NvuZGoPxYJimj31NlE6+CmxptIJJJZXQR0rcPb4S0zo55HJXpI+nKBzvYikE0DQyKVK75yqkV13xHaTrg==",
   "success": true,
-  "projectFilePath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj",
+  "projectFilePath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\ChatApi\\ChatApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fuga_02\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",

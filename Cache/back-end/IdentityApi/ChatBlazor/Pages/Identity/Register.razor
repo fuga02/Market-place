@@ -53,7 +53,7 @@
     private CreateUserModel createUser = new CreateUserModel();
     private async Task LoginAccount()
     {
-        await Http.PostAsJsonAsync("/api/Account/register", createUser);
+        await Http.PostAsJsonAsync("/identity/swagger/api/Account/register", createUser);
     }
 
 }

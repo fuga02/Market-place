@@ -47,17 +47,17 @@ builder.Services.AddIdentity(builder.Configuration);
 builder.Services.AddSignalR();
 var app = builder.Build();
 
+
+
+// Configure the HTTP request pipeline.
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseCors(cors =>
 {
     cors.AllowAnyHeader()
         .AllowAnyMethod()
         .AllowAnyOrigin();
 });
-
-// Configure the HTTP request pipeline.
-app.UseSwagger();
-app.UseSwaggerUI();
-
 app.MigrateIdentityDb();
 app.UseHttpsRedirection();
 app.UseAuthentication();

@@ -1438,11 +1438,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
+      "projectUniqueName": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
       "projectName": "IdentityData",
-      "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
+      "projectPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\IdentityData.csproj",
       "packagesPath": "C:\\Users\\fuga_02\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\src\\back-end\\IdentityApi\\IdentityData\\obj\\",
+      "outputPath": "D:\\.Net projects\\Market Place\\Market-place\\Cache\\back-end\\IdentityApi\\IdentityData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
