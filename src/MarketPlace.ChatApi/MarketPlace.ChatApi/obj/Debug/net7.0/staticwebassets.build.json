@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1KMYgxHUbtrrbB6CboGWS00EX6ji0AIwYC5tBkbAVSQ=",
+  "Source": "MarketPlace.ChatApi",
+  "BasePath": "_content/MarketPlace.ChatApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

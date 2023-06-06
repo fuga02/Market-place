@@ -7,12 +7,12 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["src/MarketPlace.ChatApi/MarketPlace.ChatApi/MarketPlace.ChatApi.csproj", "src/MarketPlace.ChatApi/MarketPlace.ChatApi/"]
-COPY ["src/MarketPlace.ChatData/MarketPlace.ChatData/MarketPlace.ChatData.csproj", "src/MarketPlace.ChatData/MarketPlace.ChatData/"]
-COPY ["src/MarketPlace.IdentityData/MarketPlace.IdentityData/MarketPlace.IdentityData.csproj", "src/MarketPlace.IdentityData/MarketPlace.IdentityData/"]
-RUN dotnet restore "src/MarketPlace.ChatApi/MarketPlace.ChatApi/MarketPlace.ChatApi.csproj"
+COPY ["MarketPlace.ChatApi/MarketPlace.ChatApi/MarketPlace.ChatApi.csproj", "MarketPlace.ChatApi/MarketPlace.ChatApi/"]
+COPY ["MarketPlace.ChatData/MarketPlace.ChatData/MarketPlace.ChatData.csproj", "MarketPlace.ChatData/MarketPlace.ChatData/"]
+COPY ["MarketPlace.IdentityData/MarketPlace.IdentityData/MarketPlace.IdentityData.csproj", "MarketPlace.IdentityData/MarketPlace.IdentityData/"]
+RUN dotnet restore "MarketPlace.ChatApi/MarketPlace.ChatApi/MarketPlace.ChatApi.csproj"
 COPY . .
-WORKDIR "/src/src/MarketPlace.ChatApi/MarketPlace.ChatApi"
+WORKDIR "/src/MarketPlace.ChatApi/MarketPlace.ChatApi"
 RUN dotnet build "MarketPlace.ChatApi.csproj" -c Release -o /app/build
 
 FROM build AS publish

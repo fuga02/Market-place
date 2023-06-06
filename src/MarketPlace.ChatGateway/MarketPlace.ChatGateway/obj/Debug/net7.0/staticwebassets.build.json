@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tN/6woaUx9iYXZM5xnO8HWb56QWvCO8aXvSqRXJ2fpI=",
+  "Source": "MarketPlace.ChatGateway",
+  "BasePath": "_content/MarketPlace.ChatGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

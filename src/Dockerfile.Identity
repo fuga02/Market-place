@@ -7,11 +7,11 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["src/MarketPlace.IdentityApi/MarketPlace.IdentityApi/MarketPlace.IdentityApi.csproj", "src/MarketPlace.IdentityApi/MarketPlace.IdentityApi/"]
-COPY ["src/MarketPlace.IdentityData/MarketPlace.IdentityData/MarketPlace.IdentityData.csproj", "src/MarketPlace.IdentityData/MarketPlace.IdentityData/"]
-RUN dotnet restore "src/MarketPlace.IdentityApi/MarketPlace.IdentityApi/MarketPlace.IdentityApi.csproj"
+COPY ["MarketPlace.IdentityApi/MarketPlace.IdentityApi/MarketPlace.IdentityApi.csproj", "MarketPlace.IdentityApi/MarketPlace.IdentityApi/"]
+COPY ["MarketPlace.IdentityData/MarketPlace.IdentityData/MarketPlace.IdentityData.csproj", "MarketPlace.IdentityData/MarketPlace.IdentityData/"]
+RUN dotnet restore "MarketPlace.IdentityApi/MarketPlace.IdentityApi/MarketPlace.IdentityApi.csproj"
 COPY . .
-WORKDIR "/src/src/MarketPlace.IdentityApi/MarketPlace.IdentityApi"
+WORKDIR "/src/MarketPlace.IdentityApi/MarketPlace.IdentityApi"
 RUN dotnet build "MarketPlace.IdentityApi.csproj" -c Release -o /app/build
 
 FROM build AS publish

@@ -1,0 +1,28 @@
+﻿{
+  "Routes": [
+    {
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "UpstreamPathTemplate": "/api/account/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identity",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/account/{everything}"
+    },
+    {
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "UpstreamPathTemplate": "/api/conversation/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "chat",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/conversations/{everything}"
+    }
+  ]
+}

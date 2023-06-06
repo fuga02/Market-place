@@ -1,0 +1,14 @@
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\bin\Debug\net7.0\MarketPlace.ChatData.deps.json
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\bin\Debug\net7.0\MarketPlace.ChatData.runtimeconfig.json
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\bin\Debug\net7.0\MarketPlace.ChatData.dll
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\bin\Debug\net7.0\MarketPlace.ChatData.pdb
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.csproj.AssemblyReference.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.AssemblyInfoInputs.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.AssemblyInfo.cs
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.csproj.CoreCompileInputs.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.dll
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\refint\MarketPlace.ChatData.dll
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.pdb
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\MarketPlace.ChatData.genruntimeconfig.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.ChatData\MarketPlace.ChatData\obj\Debug\net7.0\ref\MarketPlace.ChatData.dll

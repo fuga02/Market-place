@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["src/MarketPlace.ChatGateway/MarketPlace.ChatGateway/MarketPlace.ChatGateway.csproj", "src/MarketPlace.ChatGateway/MarketPlace.ChatGateway/"]
-RUN dotnet restore "src/MarketPlace.ChatGateway/MarketPlace.ChatGateway/MarketPlace.ChatGateway.csproj"
+COPY ["MarketPlace.ChatGateway/MarketPlace.ChatGateway/MarketPlace.ChatGateway.csproj", "MarketPlace.ChatGateway/MarketPlace.ChatGateway/"]
+RUN dotnet restore "MarketPlace.ChatGateway/MarketPlace.ChatGateway/MarketPlace.ChatGateway.csproj"
 COPY . .
-WORKDIR "/src/src/MarketPlace.ChatGateway/MarketPlace.ChatGateway"
+WORKDIR "/src/MarketPlace.ChatGateway/MarketPlace.ChatGateway"
 RUN dotnet build "MarketPlace.ChatGateway.csproj" -c Release -o /app/build
 
 FROM build AS publish

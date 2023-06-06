@@ -1,8 +1,9 @@
+
 using MarketPlace.IdentityData.Context;
+using MarketPlace.IdentityData.Extensions;
 using MarketPlace.IdentityData.Middlewares;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using MarketPlace.IdentityData.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,12 +38,13 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
 builder.Services.AddDbContext<IdentityDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("IdentityDb"));
 });
-
 builder.Services.AddIdentity(builder.Configuration);
+builder.Services.AddSignalR();
 var app = builder.Build();
 
 app.UseCors(cors =>
@@ -51,17 +53,18 @@ app.UseCors(cors =>
         .AllowAnyMethod()
         .AllowAnyOrigin();
 });
+
 // Configure the HTTP request pipeline.
 app.UseSwagger();
-    app.UseSwaggerUI();
+app.UseSwaggerUI();
 
+app.MigrateIdentityDb();
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
+
 app.UseAuthorization();
-
-
 app.UseErrorHandlerMiddleware();
+
 app.MapControllers();
 
 app.Run();

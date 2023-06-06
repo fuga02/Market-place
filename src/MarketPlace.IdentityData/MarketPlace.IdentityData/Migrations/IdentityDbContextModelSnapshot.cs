@@ -22,7 +22,7 @@ namespace IdentityData.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("IdentityData.Entities.User", b =>
+            modelBuilder.Entity("MarketPlace.IdentityData.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

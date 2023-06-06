@@ -1,0 +1,14 @@
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\bin\Debug\net7.0\MarketPlace.IdentityData.deps.json
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\bin\Debug\net7.0\MarketPlace.IdentityData.runtimeconfig.json
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\bin\Debug\net7.0\MarketPlace.IdentityData.dll
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\bin\Debug\net7.0\MarketPlace.IdentityData.pdb
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.csproj.AssemblyReference.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.AssemblyInfoInputs.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.AssemblyInfo.cs
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.csproj.CoreCompileInputs.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.dll
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\refint\MarketPlace.IdentityData.dll
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.pdb
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\MarketPlace.IdentityData.genruntimeconfig.cache
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.IdentityData\MarketPlace.IdentityData\obj\Debug\net7.0\ref\MarketPlace.IdentityData.dll
