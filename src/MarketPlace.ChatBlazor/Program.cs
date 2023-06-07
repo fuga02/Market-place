@@ -11,7 +11,7 @@ builder.Services.AddSingleton<WeatherForecastService>();
 
 builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddScoped<ConversationService>();
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:7072") });
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:7070") });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

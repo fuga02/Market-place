@@ -1,30 +1,87 @@
 ﻿@page "/chats"
 @using ChatBlazor.Services
 @using MarketPlace.ChatBlazor.Models.ChatModels
+@using MarketPlace.ChatBlazor.Models.IdentityModels
 @inject ConversationService ConversationsService
 <h3>Conversations</h3>
 
-
 <div>
-    @{
-        foreach (var conversation in _conversations!)
+    <div><button type="button" @onclick=" SearchUser, async () => await GetUserByUsername()" class="btn btn-primary">Search User</button></div>
+    <div><button type="button" @onclick="ShowAllChats" class="btn btn-primary">Show all chats</button></div>
+</div>
+
+@{
+    if (choice)
+    {
+        if (userModel == null)
         {
-            <a href="/chats/@conversation.Id" >@conversation.FromUserId</a>
-            <br/>
+            <h1> Not found</h1>
+        }
+        else
+        {
+            if (_conversations == null)
+            {
+                <p> U never chatted with @usernameInput</p>
+                <div><button type="button" @onclick=" " class="btn btn-primary">Start chat</button></div>
+            }
+            else
+            {
+               var conversationId =   _conversations.FirstOrDefault(u => u.FromUserId == userModel.Id);
+                <a href="/chats/@conversationId">@usernameInput</a>
+                <br/>
+            }
         }
     }
-</div>
+    else
+    {
+        <div>
+            @{
+                foreach (var conversation in _conversations!)
+                {
+                    <a href="/chats/@conversation.Id" >@conversation.FromUserId</a>
+                    <br/>
+                }
+            }
+        </div>
+    }
+}
+
+
 
 @code 
 {
     [Parameter]
     public string? ConversationId { get; set; }
 
+
+    private string usernameInput { get; set; }
+    private UserModel userModel = new UserModel();
+    bool choice;
     private List<ConversationModel>? _conversations = new List<ConversationModel>();
 
     protected override async Task OnInitializedAsync()
     {
         _conversations = await ConversationsService.Get<List<ConversationModel>>("/chat/swagger/api/Conversations");
     }
+    private async Task GetUserByUsername()
+    {
 
+        if (usernameInput != string.Empty)
+        {
+            userModel = await ConversationsService.Get<UserModel>("/api/Account/GetUser");
+        }
+
+
+    }
+
+
+    private void SearchUser()
+    {
+        choice = true;
+    }
+
+    private void ShowAllChats()
+    {
+        choice = false;
+    }
 }
