@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MarketPlace.Organizations.Controllers;
 
-[Route("api/oragnization")]
+[Route("api/organization")]
 [ApiController]/*
 [Authorize]*/
 public class OrganizationsController : ControllerBase

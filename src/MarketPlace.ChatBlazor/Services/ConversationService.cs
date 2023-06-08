@@ -1,4 +1,5 @@
 ﻿using Blazored.LocalStorage;
+using static System.Net.WebRequestMethods;
 
 namespace MarketPlace.ChatBlazor.Services;
 
@@ -19,6 +20,6 @@ public class ConversationService
         var request = new HttpRequestMessage(HttpMethod.Get, url);
         request.Headers.Add("Authorization", $"Bearer {token}");
         var response = await _httpClient.SendAsync(request);
-        return await response.Content.ReadFromJsonAsync<T>();
+        return (await response.Content.ReadFromJsonAsync<T>())!;
     }
 }
