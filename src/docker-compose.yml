@@ -10,7 +10,7 @@ services:
         context: .
         dockerfile: Dockerfile.Identity
     ports:
-        - '7073:80'
+        - '7070:80'
 
   chat:
     image: chat
@@ -31,6 +31,17 @@ services:
         dockerfile: Dockerfile.ChatGateway
     ports:
         - '7072:80'
+
+  organization:
+    image: organization
+    container_name: organization
+    build:
+        context: .
+        dockerfile: Dockerfile.Organization
+    ports:
+        - '7073:80'
+    volumes:
+      - organization_data:/var/lib/organization/data/
 
   identity_db:
     image: postgres:latest
@@ -53,8 +64,21 @@ services:
     restart: always
     volumes:
       - chat_db_data:/var/lib/postgresql/data/
+       
+  organization_db:
+    image: postgres:latest
+    container_name: organization_db
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5434:5432"
+    restart: always
+    volumes:
+      - organization_db:/var/lib/postgresql/data/
     
 
 volumes:
   chat_db_data:  
   identity_db_data:
+  organization_db: 
+  organization_data:

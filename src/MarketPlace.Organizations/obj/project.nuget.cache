@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7j7mrDORNc42pHeGuZd+U9QuIm7ChKpBekgB8tEigJcdjnx3Zf4VcqS0Ffwq9Kfz0OtU+OUTfPepY1+XagsQig==",
+  "dgSpecHash": "56nhbMLGFxiFT396IIopPEAK8ZEx2ub2PWLHb3Uq5WmpPs4XD8mvt8Cejmqis8PdX344hd+kxk6eL7Kkl1BZ2w==",
   "success": true,
   "projectFilePath": "D:\\.Net projects\\Market Place\\Market-place\\src\\MarketPlace.Organizations\\MarketPlace.Organizations.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
     "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\fuga_02\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\fuga_02\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\fuga_02\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
     "C:\\Users\\fuga_02\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",

@@ -40,13 +40,12 @@ public class OrganizationManager
     {
         var organization = new Organization()
         {
-            Id = Guid.NewGuid(),
             Name = organizationModel.Name,
             Description = organizationModel.Description,
             Logo = await FileService.SaveOrganizationLogo(organizationModel.Logo!),
             Contact = organizationModel.Contact,
         };
-
+        
         if (organizationModel?.Addresses != null)
         {
             organization.Addresses = organizationModel.Addresses!.Select(model => new OrganizationAddress()
@@ -57,6 +56,13 @@ public class OrganizationManager
                 Address = model.Address
             }).ToList();
         }
+        var organizationUser = new OrganizationUser()
+        {
+            OrganizationId = organization.Id,
+            UserId = _userProvider.UserId,
+            UserRole = OrganizationUserRole.Owner
+        };
+        organization.Users = new List<OrganizationUser> { organizationUser };
         _organizationsDbContext.Organizations.Add(organization);
 
         await _organizationsDbContext.SaveChangesAsync();

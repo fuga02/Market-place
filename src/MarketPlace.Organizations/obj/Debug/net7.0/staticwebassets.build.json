@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "RQI9jIYdzguS31Sjc0sL5h87tj1bgl04uLlc/hK99RA=",
+  "Hash": "3+gdsB8sGpoMxqsgqnO/81Sa23EI84DF050BY7LrJbc=",
   "Source": "MarketPlace.Organizations",
   "BasePath": "_content/MarketPlace.Organizations",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MarketPlace.Organizations\\wwwroot",
+      "Source": "MarketPlace.Organizations",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\MarketPlace.Organizations\\wwwroot\\",
+      "BasePath": "_content/MarketPlace.Organizations",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
