@@ -36,7 +36,6 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
-builder.Services.AddScoped<OrganizationManager>();
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 builder.Services.AddDbContext<OrganizationsDbContext>(options =>
@@ -45,6 +44,8 @@ builder.Services.AddDbContext<OrganizationsDbContext>(options =>
 });
 builder.Services.AddIdentity(builder.Configuration);
 
+builder.Services.AddScoped<OrganizationManager>();
+builder.Services.AddScoped<OrganizationUserManager>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -58,7 +59,7 @@ app.UseCors(cors =>
         .AllowAnyOrigin();
 });
 app.MigrateOrganizationDbContext();
-
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

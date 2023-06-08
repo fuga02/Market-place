@@ -49,3 +49,4 @@ D:\.Net projects\Market Place\Market-place\src\MarketPlace.Organizations\obj\Deb
 D:\.Net projects\Market Place\Market-place\src\MarketPlace.Organizations\obj\Debug\net7.0\MarketPlace.Organizations.pdb
 D:\.Net projects\Market Place\Market-place\src\MarketPlace.Organizations\obj\Debug\net7.0\MarketPlace.Organizations.genruntimeconfig.cache
 D:\.Net projects\Market Place\Market-place\src\MarketPlace.Organizations\obj\Debug\net7.0\ref\MarketPlace.Organizations.dll
+D:\.Net projects\Market Place\Market-place\src\MarketPlace.Organizations\bin\Debug\net7.0\MarketPlace.Organizations.staticwebassets.runtime.json

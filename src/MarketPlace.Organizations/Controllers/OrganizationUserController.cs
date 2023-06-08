@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MarketPlace.Organizations.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/organizations/{organizationId}/users")]
 [ApiController]
 public class OrganizationUserController : ControllerBase
 {
@@ -15,7 +15,7 @@ public class OrganizationUserController : ControllerBase
     }
 
 
-    [HttpGet("getUser")]
+    [HttpGet("{userId}")]
     public async Task<IActionResult> GetOrganizationUser(Guid userId, Guid organizationId)
     {
         var organizationUser = await _organizationUserManager.GetOrganizationUser(organizationId, userId)!;
@@ -23,13 +23,13 @@ public class OrganizationUserController : ControllerBase
         return Ok(organizationUser);
     }
 
-    [HttpPost("addUser")]
+    [HttpPost("{userId}")]
     public async Task<IActionResult> AddUser(Guid userId, Guid organizationId)
     {
         return Ok(await _organizationUserManager.AddUser(userId, organizationId));
     }
 
-    [HttpGet("getUsers")]
+    [HttpGet]
     public async Task<IActionResult> GetOrganizationUser(Guid organizationId)
     {
         return Ok(await _organizationUserManager.GetOrganizationUsers(organizationId));

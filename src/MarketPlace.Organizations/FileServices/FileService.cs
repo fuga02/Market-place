@@ -18,7 +18,7 @@ public class FileService
 
     private static async Task<string> SaveFile(IFormFile file, string folder)
     {
-        CheckDirectory(folder);
+        CheckDirectory(Path.Combine(Wwwroot, folder));
         var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
         var ms = new MemoryStream();
         await file.CopyToAsync(ms);

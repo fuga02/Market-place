@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MarketPlace.Organizations.Controllers;
 
-[Route("api/[controller]")]
-[ApiController]
-[Authorize]
+[Route("api/oragnization")]
+[ApiController]/*
+[Authorize]*/
 public class OrganizationsController : ControllerBase
 {
     private readonly OrganizationManager _organizationManager;
@@ -19,26 +19,26 @@ public class OrganizationsController : ControllerBase
     }
 
 
-    [HttpGet("getList")]
+    [HttpGet]
     public async Task<IActionResult> GetOrganizations()
     {
 
         return Ok(await _organizationManager.GetOrganizations());
     }
-    [HttpPost("create")]
-    public async Task<IActionResult> CreateOrganization(CreateOrganizationModel organizationModel)
+    [HttpPost]
+    public async Task<IActionResult> CreateOrganization([FromForm] CreateOrganizationModel organizationModel)
     {
         return Ok(await _organizationManager.Create(organizationModel));
     }
 
-    [HttpGet("getById")]
+    [HttpGet("{organizationId}")]
     public async Task<IActionResult> GetById(Guid organizationId)
     {
         return Ok(await _organizationManager.GetById(organizationId));
     }
 
-    [HttpPut("update")]
-    public async Task<IActionResult> UpdateOrganization(Guid organizationId,CreateOrganizationModel organizationModel)
+    [HttpPut]
+    public async Task<IActionResult> UpdateOrganization(Guid organizationId, [FromForm] CreateOrganizationModel organizationModel)
     {
         return Ok(await _organizationManager.Update(organizationId, organizationModel));
     }

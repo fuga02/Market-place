@@ -6,7 +6,7 @@
 <h3>Conversations</h3>
 
 <div>
-    <div><button type="button" @onclick=" SearchUser, async () => await GetUserByUsername()" class="btn btn-primary">Search User</button></div>
+    <div><button type="button" @onclick="async () => await GetUserByUsername()" class="btn btn-primary">Search User</button></div>
     <div><button type="button" @onclick="ShowAllChats" class="btn btn-primary">Show all chats</button></div>
 </div>
 
@@ -22,7 +22,7 @@
             if (_conversations == null)
             {
                 <p> U never chatted with @usernameInput</p>
-                <div><button type="button" @onclick=" " class="btn btn-primary">Start chat</button></div>
+                <div><button type="button" @onclick="StartChat" class="btn btn-primary">Start chat</button></div>
             }
             else
             {
@@ -65,6 +65,7 @@
     }
     private async Task GetUserByUsername()
     {
+        SearchUser();
 
         if (usernameInput != string.Empty)
         {
@@ -83,5 +84,10 @@
     private void ShowAllChats()
     {
         choice = false;
+    }
+
+    private void StartChat()
+    {
+
     }
 }

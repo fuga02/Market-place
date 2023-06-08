@@ -40,13 +40,12 @@ public class OrganizationManager
     {
         var organization = new Organization()
         {
-            Id = Guid.NewGuid(),
             Name = organizationModel.Name,
             Description = organizationModel.Description,
             Logo = await FileService.SaveOrganizationLogo(organizationModel.Logo!),
             Contact = organizationModel.Contact,
         };
-
+        
         if (organizationModel?.Addresses != null)
         {
             organization.Addresses = organizationModel.Addresses!.Select(model => new OrganizationAddress()

@@ -40,6 +40,8 @@ services:
         dockerfile: Dockerfile.Organization
     ports:
         - '7073:80'
+    volumes:
+      - organization_data:/var/lib/organization/data/
 
   identity_db:
     image: postgres:latest
@@ -72,9 +74,11 @@ services:
       - "5434:5432"
     restart: always
     volumes:
-      - identity_db_data:/var/lib/postgresql/data/
+      - organization_db:/var/lib/postgresql/data/
     
 
 volumes:
   chat_db_data:  
   identity_db_data:
+  organization_db: 
+  organization_data:
