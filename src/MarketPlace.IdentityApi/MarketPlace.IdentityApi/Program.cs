@@ -37,6 +37,15 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 builder.Services.AddDbContext<IdentityDbContext>(options =>
@@ -47,17 +56,12 @@ builder.Services.AddIdentity(builder.Configuration);
 builder.Services.AddSignalR();
 var app = builder.Build();
 
-    
+
 
 // Configure the HTTP request pipeline.
 app.UseSwagger();
 app.UseSwaggerUI();
-app.UseCors(cors =>
-{
-    cors.AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowAnyOrigin();
-});
+app.UseCors();
 app.MigrateIdentityDb();
 app.UseHttpsRedirection();
 app.UseAuthentication();
