@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MarketPlace.Organizations.Blazor.props" />
+</Project>

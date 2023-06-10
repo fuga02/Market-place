@@ -25,7 +25,7 @@ public class OrganizationsController : ControllerBase
 
         return Ok(await _organizationManager.GetOrganizations());
     }
-    [HttpPost]
+    [HttpPost("create")]
     public async Task<IActionResult> CreateOrganization([FromForm] CreateOrganizationModel organizationModel)
     {
         return Ok(await _organizationManager.Create(organizationModel));
