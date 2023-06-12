@@ -9,9 +9,9 @@
 @inject HttpClient Http
 @inject OrganizationService OrganizationService
 <form class="row g-3" style="width: 400px" enctype="multipart/form-data">
-    <input name="ConfirmPassword" @bind="id" class="form-control" type="password" placeholder="Enter organizationId" />
+    <input name="ConfirmPassword" @bind="id" class="form-control" type="text" placeholder="Enter organizationId" />
     <br/>
-    <input name="Photo" @bind="createOrganization.Logo" class="form-control" type="file"/>
+    <InputFile name="Photo" @bind-value="createOrganization.Logo" class="form-control" type="file" />
     <input name="Name" @bind="createOrganization.Name" class="form-control" type="text" placeholder="Name"/>
     <input name="Username" @bind="createOrganization.Description" class="form-control" type="text" placeholder="Description"/>
     <input name="Password" @bind="createOrganization.Contact" class="form-control" type="password" placeholder="Contact"/>
@@ -20,7 +20,7 @@
 </form>
 
 @code {
-
+     
 
 
 

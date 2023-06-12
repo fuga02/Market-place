@@ -23,13 +23,13 @@ public class OrganizationUserController : ControllerBase
         return Ok(organizationUser);
     }
 
-    [HttpPost("{userId}")]
+    [HttpPost("/add/{userId}")]
     public async Task<IActionResult> AddUser(Guid userId, Guid organizationId)
     {
         return Ok(await _organizationUserManager.AddUser(userId, organizationId));
     }
 
-    [HttpGet]
+    [HttpGet("get")]
     public async Task<IActionResult> GetOrganizationUser(Guid organizationId)
     {
         return Ok(await _organizationUserManager.GetOrganizationUsers(organizationId));

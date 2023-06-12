@@ -22,9 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Organizations",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.ChatBlazor", "MarketPlace.ChatBlazor\MarketPlace.ChatBlazor.csproj", "{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Organization.Blazor", "MarketPlace.Organization.Blazor\MarketPlace.Organization.Blazor.csproj", "{E1C27833-98BB-47FA-BC98-73362701D814}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.Organizations.Blazor", "MarketPlace.Organizations.Blazor\MarketPlace.Organizations.Blazor.csproj", "{BCFB4A61-A445-4CE6-A930-EA45E1EB9AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Organizations.Blazor", "MarketPlace.Organizations.Blazor\MarketPlace.Organizations.Blazor.csproj", "{BCFB4A61-A445-4CE6-A930-EA45E1EB9AF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,10 +58,6 @@ Global
 		{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9DD9E3F-A8E0-4074-90F4-A4854FC6B688}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1C27833-98BB-47FA-BC98-73362701D814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1C27833-98BB-47FA-BC98-73362701D814}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1C27833-98BB-47FA-BC98-73362701D814}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1C27833-98BB-47FA-BC98-73362701D814}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BCFB4A61-A445-4CE6-A930-EA45E1EB9AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCFB4A61-A445-4CE6-A930-EA45E1EB9AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCFB4A61-A445-4CE6-A930-EA45E1EB9AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
