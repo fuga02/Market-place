@@ -43,6 +43,17 @@ services:
     volumes:
       - organization_data:/var/lib/organization/data/
 
+  product:
+    image: product
+    container_name: product
+    build:
+        context: .
+        dockerfile: Dockerfile.Products
+    ports:
+        - '7074:80'
+    volumes:
+      - product_data:/var/lib/product/data/
+
   identity_db:
     image: postgres:latest
     container_name: identity_db
@@ -82,3 +93,4 @@ volumes:
   identity_db_data:
   organization_db: 
   organization_data:
+  product_data:  
