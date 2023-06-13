@@ -1,4 +1,6 @@
-﻿namespace MarketPlace.ProductsApi.Models;
+﻿using Microsoft.AspNetCore.Http;
+
+namespace MarketPlace.Product.Blazor.Models;
 
 public class ProductImageModel
 {

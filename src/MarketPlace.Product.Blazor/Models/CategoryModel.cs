@@ -1,6 +1,4 @@
-﻿using MarketPlace.ProductsApi.Entities;
-
-namespace MarketPlace.ProductsApi.Models;
+﻿namespace MarketPlace.Product.Blazor.Models;
 
 public class CategoryModel
 {
