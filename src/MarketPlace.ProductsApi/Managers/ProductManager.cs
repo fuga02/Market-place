@@ -1,4 +1,5 @@
 ﻿using MarketPlace.ProductsApi.Entities;
+using MarketPlace.ProductsApi.FileServices;
 using MarketPlace.ProductsApi.Models;
 using MarketPlace.ProductsApi.Repositories;
 
@@ -24,29 +25,33 @@ public class ProductManager
 
     public async Task<ProductModel> GetProductById(Guid productId, int categoryId)
     {
-        var category =  _categoryRepository.Categories.FirstOrDefault(c => c.Id == categoryId);
+        var category = _categoryRepository.Categories.FirstOrDefault(c => c.Id == categoryId);
         if (category == null) return null!;
-        return ParseToProductModel(await _repository.GetProductById(category,productId));
+        return ParseToProductModel(await _repository.GetProductById(category, productId));
     }
 
-    public async Task<ProductModel> AddProduct(int categoryId, ProductModel model)
+    public async Task<ProductModel> AddProduct(int categoryId, CreateProductModel model)
     {
         var category = _categoryRepository.Categories.FirstOrDefault(c => c.Id == categoryId);
-        if(category == null) return null!;
+        if (category == null) return null!;
         var product = new Product
         {
             Name = model.Name,
             Description = model.Description,
             Price = model.Price,
             CategoryId = categoryId,
-            Images = model.Images
+            Images = ((List<ProductImage>?)model.Images.Select(i => new ProductImage()
+            {
+                ProductId = i.ProductId,
+                Image_Url = FileService.ProductImages(i.Image)
+            }))!
         };
         await _repository.AddProduct(category, product);
         return ParseToProductModel(product);
     }
 
 
-    public async Task<ProductModel> UpdateProduct(int categoryId, Guid productId, ProductModel model)
+    public async Task<ProductModel> UpdateProduct(int categoryId, Guid productId, CreateProductModel model)
     {
         var category = _categoryRepository.Categories.FirstOrDefault(c => c.Id == categoryId);
         if (category == null) return null!;
@@ -57,7 +62,11 @@ public class ProductManager
         product.Description = model.Description;
         product.Price = model.Price;
         product.CategoryId = categoryId;
-        product.Images = model.Images;
+        product.Images = ((List<ProductImage>?)model.Images.Select(i => new ProductImage()
+        {
+            ProductId = i.ProductId,
+            Image_Url = FileService.ProductImages(i.Image)
+        }))!;
         await _repository.UpdateProduct(category, product);
         return ParseToProductModel(product);
     }
