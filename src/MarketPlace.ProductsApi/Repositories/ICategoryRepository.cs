@@ -4,10 +4,36 @@ namespace MarketPlace.ProductsApi.Repositories;
 
 public interface ICategoryRepository
 {
-    IEnumerable<Category> Categories { get; set; }
+    Task<IEnumerable<Category>> Categories { get; set; }
     
      Task AddCategory(Category category);
      Task UpdateCategory(Category category);
      Task DeleteCategory(Category category);
      Task<Category> GetCategoryById(int categoryId);
 }
+
+public class CategoryRepository : ICategoryRepository
+{
+    public Task<IEnumerable<Category>> Categories { get; set; }
+    public Task AddCategory(Category category)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateCategory(Category category)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DeleteCategory(Category category)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Category> GetCategoryById(int categoryId)
+    {
+        throw new NotImplementedException();
+    }
+}
+
+

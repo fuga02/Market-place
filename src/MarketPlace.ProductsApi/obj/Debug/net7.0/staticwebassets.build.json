@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Ie+QwbDKZHjAcpmZxWkurJZJ41N5shx5cnh/7o0Mvew=",
+  "Source": "MarketPlace.ProductsApi",
+  "BasePath": "_content/MarketPlace.ProductsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MarketPlace.ProductsApi\\wwwroot",
+      "Source": "MarketPlace.ProductsApi",
+      "ContentRoot": "D:\\.Net projects\\Market Place\\Market-place\\src\\MarketPlace.ProductsApi\\wwwroot\\",
+      "BasePath": "_content/MarketPlace.ProductsApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
