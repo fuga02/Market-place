@@ -4,13 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MarketPlace.ProductsApi.Controllers;
 
-[Route("api/category")]
+[Route("api/[controller]")]
 [ApiController]
-public class CategoryController : ControllerBase
+public class CategoriesController : ControllerBase
 {
     private readonly CategoryManager _categoryManager;
 
-    public CategoryController(CategoryManager categoryManager)
+    public CategoriesController(CategoryManager categoryManager)
     {
         _categoryManager = categoryManager;
     }
