@@ -53,6 +53,22 @@ services:
         - '7074:80'
     volumes:
       - product_data:/var/lib/product/data/
+  market_place:
+    image: market_place
+    container_name: market_place
+    build:
+        context: .
+        dockerfile: Dockerfile.MarketPlace
+    ports:
+        - '7075:80'
+  market_place_organizations:
+    image: market_place_organizations
+    container_name: MarketPlace.Organizations
+    build:
+        context: .
+        dockerfile: Dockerfile.Products
+    ports:
+        - '7076:80'
 
   identity_db:
     image: postgres:latest
