@@ -15,7 +15,6 @@ public class CategoriesController : ControllerBase
         _categoryManager = categoryManager;
     }
 
-
     [HttpGet]
     public async Task<IActionResult> GetCategories()
     {
@@ -34,13 +33,13 @@ public class CategoriesController : ControllerBase
         return Ok(await _categoryManager.AddCategory(model));
     }
 
-    [HttpPut]
+    [HttpPut("{categoryId}")]
     public async Task<IActionResult> UpdateCategory(CreateCategoryModel? model, int categoryId)
     {
         return Ok(await _categoryManager.UpdateCategory(model, categoryId));
     }
 
-    [HttpDelete]
+    [HttpDelete("{categoryId}")]
     public async Task<IActionResult> DeleteCategory(int categoryId)
     {
         return Ok(await _categoryManager.DeleteCategory(categoryId));
