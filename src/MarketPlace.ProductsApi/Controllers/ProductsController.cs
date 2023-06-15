@@ -13,30 +13,33 @@ public class ProductsController : ControllerBase
     {
         _productManager = productManager;
     }
+
     [HttpGet]
-    public async Task<IActionResult> GetProducts(int categoryId)
+    public async Task<IActionResult> GetProducts()
     {
-        return Ok(await _productManager.GetProducts(categoryId));
-    }
-    [HttpGet("{productId}")]
-    public async Task<IActionResult> GetProductById(Guid productId, int categoryId)
-    {
-        return Ok(await _productManager.GetProductById(productId,categoryId));
-    }
-    [HttpPost]
-    public async Task<OkObjectResult> AddProduct(int categoryId, CreateProductModel model)
-    {
-        return Ok(await _productManager.AddProduct(categoryId,model));
+        return Ok(await _productManager.GetProducts());
     }
 
-    [HttpPut("{productId}")]
-    public async Task<IActionResult> UpdateProduct(int categoryId, Guid productId, CreateProductModel model)
+    [HttpGet("{productId}")]
+    public async Task<IActionResult> GetProductById(Guid productId)
     {
-        return Ok(await _productManager.UpdateProduct(categoryId,productId,model));
+        return Ok(await _productManager.GetProductById(productId));
     }
-    [HttpDelete("{productId}")]
-    public async Task<IActionResult> DeleteProduct(int categoryId, Guid productId)
+
+    [HttpPost]
+    public async Task<IActionResult> AddProduct([FromForm] CreateProductModel model)
     {
-        return Ok(await _productManager.DeleteProduct(categoryId,productId));
+        return Ok(await _productManager.AddProduct(model));
+    }
+    [HttpPut("{productId}")]
+    public async Task<IActionResult> UpdateProduct([FromForm] CreateProductModel model, Guid productId)
+    {
+        return Ok(await _productManager.UpdateProduct(productId, model));
+    }
+
+    [HttpDelete("{productId}")]
+    public async Task<IActionResult> DeleteProduct(Guid productId)
+    {
+        return Ok(await _productManager.DeleteProduct(productId));
     }
 }
