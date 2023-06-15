@@ -37,11 +37,11 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
-builder.Services.AddCors(options =>
+builder.Services.AddCors(cors =>
 {
-    options.AddDefaultPolicy(builder =>
+    cors.AddDefaultPolicy(options =>
     {
-        builder.AllowAnyOrigin()
+        options.AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader();
     });

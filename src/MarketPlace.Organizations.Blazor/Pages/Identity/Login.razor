@@ -20,7 +20,7 @@
     private LoginUserModel loginAccount = new LoginUserModel();
     private async Task RegisterUser()
     {
-        var response = await Http.PostAsJsonAsync("http://localhost:7070/api/Account/login", loginAccount);
+        var response = await Http.PostAsJsonAsync("/account/login", loginAccount);
         if (response.IsSuccessStatusCode)
        {
            var result = await response.Content.ReadFromJsonAsync<LoginResult>();
