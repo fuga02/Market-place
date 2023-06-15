@@ -18,7 +18,7 @@
     private CreateUserModel createUser = new CreateUserModel();
     private async Task LoginAccount()
     {
-        await Http.PostAsJsonAsync("http://localhost:7070/api/Account/register", createUser);
+        await Http.PostAsJsonAsync("/account/register", createUser);
     }
 
 }
