@@ -11,6 +11,17 @@
         }
       ],
       "DownstreamPathTemplate": "/api/account/{everything}"
+    },{
+      "UpstreamPathTemplate": "/account",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identity",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/account"
     },
     {
       "UpstreamPathTemplate": "/products/{everything}",
@@ -25,6 +36,18 @@
       "DownstreamPathTemplate": "/api/products/{everything}"
     },
     {
+      "UpstreamPathTemplate": "/products",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "product",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/products"
+    },
+    {
       "UpstreamPathTemplate": "/categories/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
       "DownstreamScheme": "http",
@@ -37,6 +60,18 @@
       "DownstreamPathTemplate": "/api/categories/{everything}"
     },
     {
+      "UpstreamPathTemplate": "/categories",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "product",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/categories"
+    },
+    {
       "UpstreamPathTemplate": "/organizations/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
       "DownstreamScheme": "http",
@@ -47,6 +82,18 @@
         }
       ],
       "DownstreamPathTemplate": "/api/organizations/{everything}"
+    },
+    {
+      "UpstreamPathTemplate": "/organizations",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "organization",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/organizations"
     }
   ]
 }

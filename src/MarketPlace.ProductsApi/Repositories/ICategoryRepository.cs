@@ -18,7 +18,7 @@ public class CategoryRepository : ICategoryRepository
 
     public CategoryRepository()
     {
-        var client = new MongoClient("mongodb://mongo_db:asd12345d@mongodb:27017");
+        var client = new MongoClient("mongodb://mongo_db:asd12345@mongodb:27017");
         var database = client.GetDatabase("products");
         _categoryCollection = database.GetCollection<Category>("categories");
     }

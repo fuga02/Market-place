@@ -15,8 +15,7 @@ builder.Services.AddCors(cors =>
     {
         options.AllowAnyHeader();
         options.AllowAnyMethod();
-        options.WithOrigins("https://localhost:7101");
-        options.AllowCredentials();
+        options.AllowAnyOrigin();
     });
 });
 builder.Configuration.AddJsonFile("ocelot.json");

@@ -2,7 +2,7 @@
 
 public class FileService
 {
-    private const string Wwwroot = "wwwroot";
+    private const string Images = "Images";
 
     private static void CheckDirectory(string folder)
     {
@@ -17,11 +17,11 @@ public class FileService
 
     private static string SaveFile(IFormFile file, string folder)
     {
-        CheckDirectory(Path.Combine(Wwwroot, folder));
+        CheckDirectory(Path.Combine(Images, folder));
         var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
         var ms = new MemoryStream();
          file.CopyToAsync(ms);
-         File.WriteAllBytesAsync(Path.Combine(Wwwroot, folder, fileName), ms.ToArray());
+         File.WriteAllBytesAsync(Path.Combine(Images, folder, fileName), ms.ToArray());
         return $"/{folder}/{fileName}";
     }
 }
