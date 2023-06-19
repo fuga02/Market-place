@@ -24,7 +24,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.ChatBlazor", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Organizations.Blazor", "MarketPlace.Organizations.Blazor\MarketPlace.Organizations.Blazor.csproj", "{BCFB4A61-A445-4CE6-A930-EA45E1EB9AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.ProductsApi", "MarketPlace.ProductsApi\MarketPlace.ProductsApi.csproj", "{A2A8EB64-21B7-4FF5-8D6C-905773B4507F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.ProductsApi", "MarketPlace.ProductsApi\MarketPlace.ProductsApi.csproj", "{A2A8EB64-21B7-4FF5-8D6C-905773B4507F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fronts", "Fronts", "{1819258D-6296-4BDC-9CDF-21281066883E}"
 EndProject
@@ -32,17 +32,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{89D16002-5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{3173E278-43DE-4F6E-B101-6F33F88E90FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.Product.Blazor", "MarketPlace.Product.Blazor\MarketPlace.Product.Blazor.csproj", "{715AEC3F-77D9-4821-BDD1-9DF4738976F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Product.Blazor", "MarketPlace.Product.Blazor\MarketPlace.Product.Blazor.csproj", "{715AEC3F-77D9-4821-BDD1-9DF4738976F3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{49BE5B91-EF58-4780-B131-CA39B915D3C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.Api", "MarketPlace.Api\MarketPlace.Api.csproj", "{CAF4E75F-9F59-4422-BCD6-2CFE44DB4A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Api", "MarketPlace.Api\MarketPlace.Api.csproj", "{CAF4E75F-9F59-4422-BCD6-2CFE44DB4A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.Organiations.Api", "MarketPlace.Organiations.Api\MarketPlace.Organiations.Api.csproj", "{1BEF45CF-98DA-4202-805F-57B43692852A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Organiations.Api", "MarketPlace.Organiations.Api\MarketPlace.Organiations.Api.csproj", "{1BEF45CF-98DA-4202-805F-57B43692852A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cache", "Cache", "{74FC0C93-76E2-4F44-95B2-1A89AB22AED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.Blazor", "MarketPlace.Blazor\MarketPlace.Blazor.csproj", "{D8C2748B-06D9-4403-9321-0397EF8CA828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketPlace.Blazor", "MarketPlace.Blazor\MarketPlace.Blazor.csproj", "{D8C2748B-06D9-4403-9321-0397EF8CA828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPlace.CategoriesApi", "MarketPlace.CategoriesApi\MarketPlace.CategoriesApi.csproj", "{CF21E844-3A53-43A2-8411-5F3D4327A667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,6 +104,10 @@ Global
 		{D8C2748B-06D9-4403-9321-0397EF8CA828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8C2748B-06D9-4403-9321-0397EF8CA828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8C2748B-06D9-4403-9321-0397EF8CA828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF21E844-3A53-43A2-8411-5F3D4327A667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF21E844-3A53-43A2-8411-5F3D4327A667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF21E844-3A53-43A2-8411-5F3D4327A667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF21E844-3A53-43A2-8411-5F3D4327A667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{1BEF45CF-98DA-4202-805F-57B43692852A} = {49BE5B91-EF58-4780-B131-CA39B915D3C4}
 		{74FC0C93-76E2-4F44-95B2-1A89AB22AED7} = {1819258D-6296-4BDC-9CDF-21281066883E}
 		{D8C2748B-06D9-4403-9321-0397EF8CA828} = {1819258D-6296-4BDC-9CDF-21281066883E}
+		{CF21E844-3A53-43A2-8411-5F3D4327A667} = {3173E278-43DE-4F6E-B101-6F33F88E90FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16F569A6-46BB-478D-AA10-BA6A685883B5}
